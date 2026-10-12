@@ -2,15 +2,15 @@ import {Text, SafeAreaView, TextInput, StyleSheet, View, Switch, Button, Touchab
 import { Picker } from '@react-native-picker/picker';
 import Slider from '@react-native-community/slider';
 import DatePicker from '../components/DatePicker';
-
+import Switch from '../components/Switch';
 import { useState } from 'react';
+
 
 export default function MovieBooking({ screenstyle }) {
   const [movieChoice, setMovieChoice] = useState("");
   const [totalTickets, setTotaltickets] = useState(1);
   const [balcony, setBalcony] = useState(false);
   const [movieDate, setMoviedate] = useState(new Date());
-
   // TODO 1:
   // Create a movieList state variable using useState().
   // Add an array of three movie objects.
