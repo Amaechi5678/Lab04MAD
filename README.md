@@ -15,16 +15,16 @@ If your Expo Go on your mobile doesn't support SDK 55 and requires 57, uninstall
 
 Working on VS Code: 
 
-Step 1: Open command prompt
-Step 2: cd to Documents
-Step 3: Type ``` git clone https://github.com/BusinessInformationSystemBlanch/MADWeek05.git ```
-Step 4: cd to MADWeek05
-Step 5: Type ``` npm install expo -g ``` 
-Step 6: Open your project in VS Code.
-Step 7: Click on View -- Open View -- Terminal
-Step 8: Type  ``` Set-ExecutionPolicy -Scope CurrentUser Unrestricted   ``` on the terminal, so the current user can run expo project. 
-Step 9: Type ``` npx expo install react-dom react-native-web ``` to enable web preview of the app.
-Step 10: Tyep ``` npx expo start  ``` to start the project
+Step 1: Open command prompt \
+Step 2: cd to Documents \
+Step 3: Type ``` git clone https://github.com/BusinessInformationSystemBlanch/MADWeek05.git ``` \
+Step 4: cd to MADWeek05 \
+Step 5: Type ``` npm install expo -g ``` \
+Step 6: Open your project in VS Code. \
+Step 7: Click on View -- Open View -- Terminal \
+Step 8: Type  ``` Set-ExecutionPolicy -Scope CurrentUser Unrestricted   ``` on the terminal, so the current user can run expo project.  \
+Step 9: Type ``` npx expo install react-dom react-native-web ``` to enable web preview of the app. \
+Step 10: Tyep ``` npx expo start  ``` to start the project \
 
 
 # Part 1
