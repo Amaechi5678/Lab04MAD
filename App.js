@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'lightgrey',
   },
   imgview: {
-    height: 200,            // fixed height instead of flex: .5
+    height: 200,            
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: '8%',
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
   },
   screen: {
     flex: 1,
-    alignItems: 'flex-start',   // was "start", which is invalid
+    alignItems: 'flex-start',   
     padding: '10%',
   },
 });
